@@ -1,5 +1,4 @@
 
-/* ===== Root: Colors and Variables ===== */
 :root {
     --bg-start: #667eea;
     --bg-end: #764ba2;
@@ -29,7 +28,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== Main Container ===== */
 .container {
     max-width: 850px;
     width: calc(100% - 30px);
@@ -40,7 +38,6 @@ body {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.16);
 }
 
-/* ===== Header ===== */
 .header {
     text-align: center;
     padding: 12px 15px 22px;
@@ -63,7 +60,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* ===== Cards ===== */
 .card {
     position: relative;
     background: var(--card-bg);
@@ -105,7 +101,6 @@ body {
     margin: 8px 0 12px;
 }
 
-/* ===== Information Boxes: Turquoise ===== */
 .info-box {
     padding: 12px 14px;
     margin: 12px 0;
@@ -119,7 +114,6 @@ body {
     color: #176b70;
 }
 
-/* ===== Pink Boxes ===== */
 .pink-box {
     background: linear-gradient(120deg, #ffb6c9, #ffc7e7);
     border-left: 4px solid #e879a9;
@@ -130,7 +124,6 @@ body {
     color: #8e3c68;
 }
 
-/* ===== Lists ===== */
 ul,
 ol {
     padding-left: 22px;
@@ -145,7 +138,6 @@ strong {
     color: #263746;
 }
 
-/* ===== Code Blocks ===== */
 .code-block {
     position: relative;
     background: var(--code-bg);
@@ -181,7 +173,6 @@ strong {
     border-radius: 3px;
 }
 
-/* ===== Tables: Blue Header ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -214,7 +205,6 @@ tbody tr:last-child td {
     border-bottom: none;
 }
 
-/* ===== Live Examples ===== */
 .live-example {
     background: #f4f9ff;
     border: 1px dashed #54a9ff;
@@ -252,7 +242,6 @@ a:hover {
     color: #764ba2;
 }
 
-/* ===== Forms ===== */
 form {
     display: flex;
     flex-direction: column;
@@ -305,7 +294,6 @@ button:hover {
     background: #2874a6;
 }
 
-/* ===== Table Status ===== */
 .status {
     color: #287b47;
     background: #e7f7ed;
@@ -313,7 +301,6 @@ button:hover {
     border-radius: 3px;
 }
 
-/* ===== Practice Exercises: Pink Gradient ===== */
 .practice-card {
     background: linear-gradient(120deg, #ffb6c9, #ffc7e7);
     border-left: 4px solid #e879a9;
@@ -328,7 +315,6 @@ button:hover {
     color: #8e3c68;
 }
 
-/* ===== Footer: Purple Gradient ===== */
 .footer {
     text-align: center;
     color: #fff;
@@ -348,7 +334,6 @@ button:hover {
     color: #fff;
 }
 
-/* ===== Responsive Layout ===== */
 @media (max-width: 600px) {
     .container {
         width: calc(100% - 16px);
